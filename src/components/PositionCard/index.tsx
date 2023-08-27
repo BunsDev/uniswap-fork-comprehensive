@@ -277,14 +277,14 @@ export default function FullPositionCard({ pair, border }: PositionCardProps) {
               </Text>
             </FixedHeightRow>
 
-            <ButtonSecondary padding="8px" borderRadius="8px">
+            {/* <ButtonSecondary padding="8px" borderRadius="8px">
               <ExternalLink
                 style={{ width: '100%', textAlign: 'center' }}
                 href={`https://uniswap.info/account/${account}`}
               >
                 View accrued fees and analytics<span style={{ fontSize: '11px' }}>↗</span>
               </ExternalLink>
-            </ButtonSecondary>
+            </ButtonSecondary> */}
             <RowBetween marginTop="10px">
               <ButtonPrimary
                 padding="8px"
