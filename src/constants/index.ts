@@ -3,7 +3,7 @@ import { AbstractConnector } from '@web3-react/abstract-connector'
 
 import { fortmatic, injected, portis, walletconnect, walletlink } from '../connectors'
 
-export const ROUTER_ADDRESS = '0xD1F59529c85188ca0c43B74DDd955E412A746aBf'
+export const ROUTER_ADDRESS = '0x90B38Da6147731189375A14770CbF15EE8fD2354'
 
 export const ZERO_ADDRESS = '0x0000000000000000000000000000000000000000'
 
@@ -52,6 +52,7 @@ export const MERKLE_DISTRIBUTOR_ADDRESS: { [chainId in ChainId]?: string } = {
 const WETH_ONLY: ChainTokenList = {
   [ChainId.MAINNET]: [WETH[ChainId.MAINNET]],
   [ChainId.ROPSTEN]: [WETH[ChainId.ROPSTEN]],
+  [ChainId.NERONET]: [WETH[ChainId.NERONET]],
   [ChainId.RINKEBY]: [WETH[ChainId.RINKEBY]],
   [ChainId.GÖRLI]: [WETH[ChainId.GÖRLI]],
   [ChainId.KOVAN]: [WETH[ChainId.KOVAN]]

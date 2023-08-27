@@ -196,6 +196,14 @@
         "decimals": 18,
         "chainId": 80001,
         "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0/logo.png"
+      },
+      {
+        "name": "Test Token",
+        "address": "0xdCac0079e079e04667d6B4770d45c112CeD2e1Ce",
+        "symbol": "tTEST",
+        "decimals": 18,
+        "chainId": 888888,
+        "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0/logo.png"
       }
     ]
   }
