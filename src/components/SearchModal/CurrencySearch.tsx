@@ -200,13 +200,13 @@ export function CurrencySearch({
               <TYPE.main id="currency-search-selected-list-name">{selectedListInfo.current.name}</TYPE.main>
             </Row>
           ) : null}
-          <LinkStyledButton
+          {/* <LinkStyledButton
             style={{ fontWeight: 500, color: theme.text2, fontSize: 16 }}
             onClick={onChangeList}
             id="currency-search-change-list-button"
           >
             {selectedListInfo.current ? 'Change' : 'Select a list'}
-          </LinkStyledButton>
+          </LinkStyledButton> */}
         </RowBetween>
       </Card>
     </Column>
