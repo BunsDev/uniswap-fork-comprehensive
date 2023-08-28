@@ -139,7 +139,8 @@ function StatusIcon({ connector }: { connector: AbstractConnector }) {
         <img src={WalletConnectIcon} alt={''} />
       </IconWrapper>
     )
-  } else if (connector === walletlink) {
+  }
+	{/*   else if (connector === walletlink) {
     return (
       <IconWrapper size={16}>
         <img src={CoinbaseWalletIcon} alt={''} />
@@ -157,7 +158,7 @@ function StatusIcon({ connector }: { connector: AbstractConnector }) {
         <img src={PortisIcon} alt={''} />
       </IconWrapper>
     )
-  }
+  } */}
   return null
 }
 
