@@ -254,7 +254,8 @@ export default function AccountDetails({
           <img src={WalletConnectIcon} alt={'wallet connect logo'} />
         </IconWrapper>
       )
-    } else if (connector === walletlink) {
+    } 
+	{/* else if (connector === walletlink) {
       return (
         <IconWrapper size={16}>
           <img src={CoinbaseWalletIcon} alt={'coinbase wallet logo'} />
@@ -281,7 +282,7 @@ export default function AccountDetails({
           </IconWrapper>
         </>
       )
-    }
+    } */}
     return null
   }
 
