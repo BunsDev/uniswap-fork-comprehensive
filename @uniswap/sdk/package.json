@@ -1,14 +1,13 @@
 {
-  "name": "@uniswap/sdk",
+  "name": "@aliendex/sdk",
   "license": "MIT",
-  "version": "3.0.3",
+  "version": "3.0.9",
   "description": "🛠 An SDK for building applications on top of Uniswap.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/Uniswap/uniswap-sdk.git",
   "keywords": [
     "uniswap",
     "ethereum"
@@ -18,8 +17,7 @@
     "lint": "tsdx lint src test",
     "build": "tsdx build",
     "start": "tsdx watch",
-    "test": "tsdx test",
-    "prepublishOnly": "tsdx build"
+    "test": "tsdx test"
   },
   "dependencies": {
     "@uniswap/v2-core": "^1.0.0",
@@ -55,5 +53,6 @@
     "printWidth": 120,
     "semi": false,
     "singleQuote": true
-  }
+  },
+  "author": ""
 }
