@@ -53,14 +53,14 @@ export function useUserClaimData(account: string | null | undefined): UserClaimD
 
   useEffect(() => {
     if (!account || !chainId) return
-    fetchClaim(account, chainId).then(accountClaimInfo =>
-      setClaimInfo(claimInfo => {
-        return {
-          ...claimInfo,
-          [key]: accountClaimInfo
-        }
-      })
-    )
+    // fetchClaim(account, chainId).then(accountClaimInfo =>
+    //   setClaimInfo(claimInfo => {
+    //     return {
+    //       ...claimInfo,
+    //       [key]: accountClaimInfo
+    //     }
+    //   })
+    // )
   }, [account, chainId, key])
 
   return account && chainId ? claimInfo[key] : undefined
