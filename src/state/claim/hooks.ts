@@ -1,5 +1,5 @@
 import { UNI } from './../../constants/index'
-import { TokenAmount, JSBI, ChainId } from '@uniswap/sdk'
+import { TokenAmount, JSBI, ChainId } from '@aliendex/sdk'
 import { TransactionResponse } from '@ethersproject/providers'
 import { useEffect, useState } from 'react'
 import { useActiveWeb3React } from '../../hooks'
@@ -53,14 +53,14 @@ export function useUserClaimData(account: string | null | undefined): UserClaimD
 
   useEffect(() => {
     if (!account || !chainId) return
-    fetchClaim(account, chainId).then(accountClaimInfo =>
-      setClaimInfo(claimInfo => {
-        return {
-          ...claimInfo,
-          [key]: accountClaimInfo
-        }
-      })
-    )
+    // fetchClaim(account, chainId).then(accountClaimInfo =>
+    //   setClaimInfo(claimInfo => {
+    //     return {
+    //       ...claimInfo,
+    //       [key]: accountClaimInfo
+    //     }
+    //   })
+    // )
   }, [account, chainId, key])
 
   return account && chainId ? claimInfo[key] : undefined
